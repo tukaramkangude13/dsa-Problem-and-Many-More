@@ -64,7 +64,7 @@ struct Node{
 				temp->prev->next=temp->next;
 				
 			}
-			 if(temp->next != NULL){
+			 if(temp->next != NULL){//
 			 	temp->next->prev=temp->prev;
 			 }
 			 free(temp);
